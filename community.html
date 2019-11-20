@@ -17,7 +17,8 @@
 <body>
 
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white navbar2">
-        <a class="navbar-brand" href="index.html" style="width:50%"><img src="dist/dist/image/logo4.png" alt="" class="logo1"></a>
+        <a class="navbar-brand" href="index.html" style="width:50%"><img src="dist/dist/image/logo4.png" alt=""
+                class="logo1"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -88,42 +89,48 @@
             <div class="col-md-9 cp_explain content-center slide" style="display: none;">
                 <p class="text-right git">HOME/Community </p>
                 <div class="row">
-                <span class="cp_title col-lg-3 col-md-12"><b>COMMUNITY</b></span>
-                <hr class="title-right col-lg-8 col-md-12">
-            </div>
-                <!-- <hr class="hr_1"> -->
-                <br>
-                <table class="table cm_tb">
-                    <tr>
-                        <td>
-                            <p><a href="community_detail.html" class="cm_title">협찬 관련 안내</a><br><span class="cm_sp">작성자
-                                    | 2019.10.07 |
-                                    조회 112</span></p>
-                        </td>
+                    <span class="cp_title col-lg-3 col-md-12"><b>COMMUNITY</b></span>
+                    <hr class="title-right col-lg-8 col-md-12">
+                </div>
+                <table class="table table-hover text-center font-size-9 border-bottom mt-5">
+                    <tr class="bg-light">
+                        <th style="width:10%;">NO</th>
+                        <th style="width:70%;">제목</th>
+                        <th style="width:20%;">작성자</th>
+                        <th>작성일</th>
                     </tr>
-                    <tr>
-                        <td>
-                            <p><a href="community_detail.html" class="cm_title">개인 블로그나, 페이스북에 리뷰 남겨주시는 분께
-                                    선물드립니다.</a><br><span class="cm_sp">작성자 | 2019.10.07 | 조회 64</span></p>
-                        </td>
+
+                    <tr onclick="location.href='community_detail.html'">
+                        <td>1</td>
+                        <td>협찬 관련 안내</td>
+                        <td>작성자</td>
+                        <td>2019.10.07</td>
                     </tr>
-                    <tr>
-                        <td>
-                            <p><a href="community_detail.html" class="cm_title">제휴 문의사항 안내</a><br><span
-                                    class="cm_sp">작성자 | 2019.10.07 |
-                                    조회 28</span></p>
-                        </td>
+
+                    <tr onclick="location.href='community_detail.html'">
+                        <td>2</td>
+                        <td>개인 블로그나, 페이스북에 리뷰 남겨주시는 분께 선물드립니다.</td>
+                        <td>작성자</td>
+                        <td>2019.11.10</td>
                     </tr>
-                    <tr class="border-bottom">
-                        <td>
-                            <p><a href="community_detail.html" class="cm_title">홈페이지를 오픈하였습니다.</a><br><span
-                                    class="cm_sp">작성자 |
-                                    2019.10.07 | 조회 30</span></p>
-                        </td>
+
+                    <tr onclick="location.href='community_detail.html'">
+                        <td>3</td>
+                        <td>제휴 문의사항 안내</td>
+                        <td>작성자</td>
+                        <td>2019.11.15</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>4</td>
+                        <td>홈페이지를 오픈하였습니다.</td>
+                        <td>작성자</td>
+                        <td>2019.11.20</td>
                     </tr>
                 </table>
 
-                <div class=" text-center mt-2">
+                <div class=" text-center mt-5">
                     <span><a href="" class="pg">[ 1 ]</a></span>
                 </div>
                 <br>
@@ -181,9 +188,9 @@
 <script src="dist/dist/jquery/jquery-3.4.1.min.js"></script>
 <script src="dist/dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 <script>
-$(document).ready(function(){
-$('.slide').fadeIn(1000);
-});
+    $(document).ready(function () {
+        $('.slide').fadeIn(1000);
+    });
 </script>
 
 
