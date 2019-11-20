@@ -97,8 +97,8 @@
                         <div class="row col-md-10 content-center">
                             <div class="col-md-12 ">
                                 <div class="login_box ml-5">
-                                    <label for="" class="control-label text-navy"><b>이름</b> </label>
-                                    <input type="text" class="form-control " required>
+                                    <label for="" class="control-label text-navy name"><b>이름</b> </label>
+                                    <input type="text" class="form-control name_text" required>
 
                                     <label for="" class="control-label mt-4 text-navy"><b>성별</b></label><br>
                                     <input type="radio" name="chk_info" value="여성" class="form-radio mr-1 ml-1">여성
@@ -106,12 +106,12 @@
                                     <br>
 
                                     <label for="" class="control-label mt-4 text-navy"><b>생년월일</b></label>
-                                    <input type="text" class="form-control" required>
-                                    <p class="ml-2 font-size-8 mt-2">'-' 없이 숫자만 입력하여 주십시오.</p>
+                                    <input type="text" class="form-control birth" required>
+                                    <p class="ml-2 font-size-8 mt-2 birth_war" style="display: none;">'-' 없이 숫자만 입력하여 주십시오.</p>
 
                                     <label for="" class="control-label mt-2 text-navy"><b>연락처</b></label>
-                                    <input type="text" class="form-control" required>
-                                    <p class="ml-2 font-size-8">'-' 없이 숫자만 입력하여 주십시오.</p>
+                                    <input type="text" class="form-control phone" required>
+                                    <p class="ml-2 font-size-8 phone_war" style="display: none;">'-' 없이 숫자만 입력하여 주십시오.</p>
 
                                     <label for="" class="control-label mt-2 text-navy"><b>ID</b></label>
                                     <input type="text" class="form-control" required>
@@ -160,6 +160,16 @@
 <script>
 $(document).ready(function(){
     $('.slide').slideDown(1200);
+});
+
+$('.phone').click(function(){
+$('.phone_war').css('display','block');    
+$('.phone_war').toggleClass('text-purple');
+});
+
+$('.birth').click(function(){
+$('.birth_war').css('display','block');    
+$('.birth_war').toggleClass('text-purple');
 });
 </script>
 
