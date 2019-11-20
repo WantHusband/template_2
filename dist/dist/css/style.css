@@ -49,6 +49,7 @@ footer{background-color:#39373A;text-align:center;}
 .footer_text{padding:3rem;color:rgb(231, 229, 229);font-size:12px;}
 
 .logo{width:12rem;}
+.logo1{width:15rem;}
 
 .btn-white{background:none;padding:15;font-size:17px;border-radius:2px;border:solid 1.5px white;width:50%;color:white;margin:25;}
 
@@ -56,7 +57,7 @@ footer{background-color:#39373A;text-align:center;}
 
 .h1_line{line-height:60px;}
 
-.btn-navy{background-color:#507595;color:white;padding:10;border-radius:2px;margin-bottom:20px;}
+.btn-navy{background-color:#257dca;color:white;padding:10;border-radius:2px;margin-bottom:20px;}
 
 .btn-navy:hover{background-color: #285e8d;color:white;}
 
@@ -142,11 +143,11 @@ footer{background-color:#39373A;text-align:center;}
 
 .left-bar{border:solid 1px rgb(190, 186, 186);}
 
-.tb-menu{border-top:5px solid #0850A2;}
+.tb-menu{border-top:5px solid #3996ea;}
 
 .tb-menu tr td{font-size:18px;}
 
-.tr1{background-color:#939A9E;font-weight:900;color:white;}
+.tr1{background-color:#80b8ec;font-weight:900;color:white;}
 
 .tel{color:#17A2B8;}
 
@@ -200,4 +201,4 @@ footer{background-color:#39373A;text-align:center;}
 
 .text-navy{color:#285e8d;}
 
-.title-right{border:solid 3px #285e8d;}
+.title-right{border:solid 3px #3996ea;}
