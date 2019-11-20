@@ -174,7 +174,7 @@ footer{background-color:#39373A;text-align:center;}
 
 .gallery_box:hover{background-color:#EDEDED;}
 
-.gallery_box img{width:100%;padding:10%;}
+.gallery_box img{width:100%;padding:10%;height:17rem;}
 
 .gallery_title a:hover{color:#0850A2;}
 
