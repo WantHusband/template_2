@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="dist/dist/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
+    <link rel="stylesheet" href="dist/dist/css/animate.css">
 </head>
 
 <body>
@@ -106,7 +107,7 @@
 
                         <div class="col-md-4 mt-5">
                             <div class="back_img">
-                                <img src="dist/dist/image/create.jpg" class="img2">
+                                <img src="dist/dist/image/create.jpg" class="img2 wow fadeInDown">
                             </div>
                             <div>
                                 <p class="hello"><span class="one"><b>Create</b></span><br>
@@ -117,7 +118,7 @@
 
                         <div class="col-md-4 mt-5">
                             <div class="back_img">
-                                <img src="dist/dist/image/sense.jpg" class="img2">
+                                <img src="dist/dist/image/sense.jpg" class="img2 wow fadeInDown">
                             </div>
                             <div>
                                 <p class="hello"><span class="one"><b>Sense</b></span><br>
@@ -129,7 +130,7 @@
 
                         <div class="col-md-4 mt-5">
                             <div class="back_img">
-                                <img src="dist/dist/image/quality.png" class="img2">
+                                <img src="dist/dist/image/quality.png" class="img2 wow fadeInDown">
                             </div>
                             <div>
                                 <p class="hello"><span class="one"><b>Quality</b></span><br>
@@ -148,7 +149,7 @@
                             <img src="dist/dist/image/bottom_img.jpg" alt="Glocal">
 
                             <div class="caption">
-                                <p style="word-break: keep-all;">
+                                <p style="word-break: keep-all;" class="wow fadeInLeft">
                                     <strong>Glocal dream academy</strong>는 생각의 가치를 더합니다.
                                 </p>
                             </div>
@@ -182,7 +183,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="dist/dist/jquery/jquery-3.4.1.min.js"></script>
 <script src="dist/dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<script src="dist/dist/js/wow.min.js"></script>
 <script>
+new WOW().init(); 
+ 
 $(document).ready(function(){
 $('.slide').fadeIn(1000);
 });

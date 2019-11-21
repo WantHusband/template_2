@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="dist/dist/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
+    <link rel="stylesheet" href="dist/dist/css/animate.css">
 </head>
 
 <body>
@@ -92,7 +93,7 @@
                     <span class="cp_title col-lg-3 col-md-12"><b>COMMUNITY</b></span>
                     <hr class="title-right col-lg-8 col-md-12">
                 </div>
-                <table class="table table-hover text-center font-size-9 border-bottom mt-5">
+                <table class="table table-hover text-center font-size-9 border-bottom mt-5 wow fadeInDown">
                     <tr class="bg-light eoe">
                         <th style="width:10%;">NO</th>
                         <th style="width:70%;">제목</th>
@@ -179,11 +180,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="dist/dist/jquery/jquery-3.4.1.min.js"></script>
 <script src="dist/dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<script src="dist/dist/js/wow.min.js"></script>
 <script>
     $(document).ready(function () {
         $('.slide').fadeIn(1000);
     });
     
+    new WOW().init(); 
 
     jQuery(function($){
         $('#filterText').keyup(function(event){
