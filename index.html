@@ -19,7 +19,7 @@
 <body>
 
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white">
-        <a class="navbar-brand" href="index.html" style="width:50%"><img src="dist/dist/image/logo4.png" alt="" class="logo1"></a>
+        <a class="navbar-brand" href="index.html" style="width:50%"><img src="dist/dist/image/logo4.png" alt="" class="logo1 wow flipInX"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -178,6 +178,8 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/dist/js/wow.min.js"></script>
     <script>
+        new WOW().init(); 
+
         $(document).ready(function () {
             $('.bxslider').bxSlider({
                 auto: true, // 자동으로 애니메이션 시작
