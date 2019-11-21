@@ -61,6 +61,7 @@ footer{background-color:#39373A;text-align:center;}
 
 .btn-navy:hover{background-color: #285e8d;color:white;}
 
+
 /* media */
 @media(max-width:768px){
  .sumi,.h_ft{display:none;}
@@ -205,3 +206,5 @@ footer{background-color:#39373A;text-align:center;}
 .title-right{border:solid 3px #3996ea;}
 
 .text-purple{color: rgb(86, 31, 226);}
+.btn-outline-danger{border-radius:2px; border:solid 1px rgb(116, 175, 230); color:rgb(83, 157, 226);}
+.btn-outline-danger:hover{border-radius:2px; border:solid 1px #9FC5E8; color:white; background-color:#9FC5E8;}
